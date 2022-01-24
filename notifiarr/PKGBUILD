@@ -1,6 +1,6 @@
 pkgname=notifiarr
 pkgver=0.2.7
-pkgrel=254
+pkgrel=256
 pkgdesc='Unified Client for Notifiarr.com'
 arch=('x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64' 'i686' 'pentium4')
 url='https://github.com/Notifiarr/notifiarr'
