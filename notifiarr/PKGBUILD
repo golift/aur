@@ -1,12 +1,12 @@
 pkgname=notifiarr
-pkgver=notifiarr-release
+pkgver=notifiarr-bot-enabled
 pkgrel=308
 pkgdesc='Unified Client for Notifiarr.com'
 arch=('x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64' 'i686' 'pentium4')
 url='https://github.com/Notifiarr/notifiarr'
 license=('MIT')
 makedepends=('go' 'make')
-source=("notifiarr-${pkgver}.tar.gz::https://codeload.github.com/Notifiarr/notifiarr/tar.gz/refs/tags/vnotifiarr-release")
+source=("notifiarr-${pkgver}.tar.gz::https://codeload.github.com/Notifiarr/notifiarr/tar.gz/refs/tags/vnotifiarr-bot-enabled")
 sha256sums=('d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed')
 configfile='notifiarr.conf'
 backup=("etc/${pkgname}/${configfile}")
