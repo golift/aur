@@ -1,7 +1,7 @@
 pkgbase = notifiarr
 	pkgdesc = Unified Client for Notifiarr.com
-	pkgver = 0.3.0
-	pkgrel = 497
+	pkgver = 0.3.1
+	pkgrel = 505
 	url = https://github.com/Notifiarr/notifiarr
 	install = notifiarr.aur.install
 	arch = x86_64
@@ -15,7 +15,7 @@ pkgbase = notifiarr
 	makedepends = go
 	makedepends = make
 	backup = etc/notifiarr/notifiarr.conf
-	source = notifiarr-0.3.0.tar.gz::https://codeload.github.com/Notifiarr/notifiarr/tar.gz/refs/tags/v0.3.0
-	sha256sums = 9c4770f3661175e9a455e8ebc50bbdf89f7434a6b3f43c90c47421c5da8c4219
+	source = notifiarr-0.3.1.tar.gz::https://codeload.github.com/Notifiarr/notifiarr/tar.gz/refs/tags/v0.3.1
+	sha256sums = 9346454fdacff26e2a59354b5a947fc1f8535a197af95a933d9f131fdf4bff43
 
 pkgname = notifiarr
