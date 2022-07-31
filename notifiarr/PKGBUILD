@@ -1,13 +1,13 @@
 pkgname=notifiarr
-pkgver=0.3.1
-pkgrel=505
+pkgver=0.3.2
+pkgrel=766
 pkgdesc='Unified Client for Notifiarr.com'
 arch=('x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64' 'i686' 'pentium4')
 url='https://github.com/Notifiarr/notifiarr'
 license=('MIT')
 makedepends=('go' 'make')
-source=("notifiarr-${pkgver}.tar.gz::https://codeload.github.com/Notifiarr/notifiarr/tar.gz/refs/tags/v0.3.1")
-sha256sums=('9346454fdacff26e2a59354b5a947fc1f8535a197af95a933d9f131fdf4bff43')
+source=("notifiarr-${pkgver}.tar.gz::https://codeload.github.com/Notifiarr/notifiarr/tar.gz/refs/tags/v0.3.2")
+sha256sums=('27ef00b0a79d97a918a7d42e83e6b53ad92821a8a77c9d91be359256873cdd5e')
 configfile='notifiarr.conf'
 backup=("etc/${pkgname}/${configfile}")
 install="${pkgname}.aur.install"
