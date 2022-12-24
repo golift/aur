@@ -1,7 +1,7 @@
 pkgbase = notifiarr
 	pkgdesc = Official Client for Notifiarr.com
 	pkgver = 0.4.4
-	pkgrel = 1244
+	pkgrel = 1245
 	url = https://github.com/Notifiarr/notifiarr
 	install = notifiarr.aur.install
 	arch = x86_64
@@ -16,6 +16,6 @@ pkgbase = notifiarr
 	makedepends = make
 	backup = etc/notifiarr/notifiarr.conf
 	source = notifiarr-0.4.4.tar.gz::https://github.com/Notifiarr/notifiarr/archive/v0.4.4.tar.gz
-	sha256sums = d989b0b0cc87e841947452e7cec03074750690438804434e971494cd8b9da6c7
+	sha256sums = 100095b6e2b3d91c0358130a9286833386aee7bd4bd47dc864f08259c4da2c4f
 
 pkgname = notifiarr
