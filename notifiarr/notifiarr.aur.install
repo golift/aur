@@ -1,7 +1,6 @@
 post_upgrade() {
   /bin/systemctl restart notifiarr
 }
-
 pre_remove() {
   /bin/systemctl stop notifiarr
   /bin/systemctl disable notifiarr
