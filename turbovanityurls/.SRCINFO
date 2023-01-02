@@ -1,0 +1,21 @@
+pkgbase = turbovanityurls
+	pkgdesc = HTTP Server providing vanity go import paths.
+	pkgver = 0.1.0
+	pkgrel = 145
+	url = https://github.com/golift/turbovanityurls
+	install = turbovanityurls.aur.install
+	arch = x86_64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	arch = i686
+	arch = pentium4
+	license = MIT
+	makedepends = go
+	makedepends = make
+	backup = etc/turbovanityurls/config.yaml
+	source = turbovanityurls-0.1.0.tar.gz::https://github.com/golift/turbovanityurls/archive/v0.1.0.tar.gz
+	sha256sums = fe214c47f0298e8c851fded330d487b88b42d0a2f92cee1cf3210873b2f01601
+
+pkgname = turbovanityurls

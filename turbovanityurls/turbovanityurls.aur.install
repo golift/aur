@@ -1,0 +1,8 @@
+post_upgrade() {
+  /bin/systemctl restart turbovanityurls
+}
+
+pre_remove() {
+  /bin/systemctl stop turbovanityurls
+  /bin/systemctl disable turbovanityurls
+}
