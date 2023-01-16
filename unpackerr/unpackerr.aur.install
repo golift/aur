@@ -1,0 +1,8 @@
+post_upgrade() {
+  /bin/systemctl restart unpackerr
+}
+
+pre_remove() {
+  /bin/systemctl stop unpackerr
+  /bin/systemctl disable unpackerr
+}
