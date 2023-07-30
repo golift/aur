@@ -1,13 +1,13 @@
 pkgname=unpackerr
-pkgver=0.11.2
-pkgrel=505
+pkgver=0.12.0
+pkgrel=547
 pkgdesc='Extracts downloads so Radarr, Sonarr, Lidarr or Readarr may import them.'
 arch=('x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64' 'i686' 'pentium4')
 url='https://golift.io/unpackerr'
 license=('MIT')
 makedepends=('go' 'make')
-source=("unpackerr-${pkgver}.tar.gz::https://github.com/Unpackerr/unpackerr/archive/v0.11.2.tar.gz")
-sha256sums=('8d6d25db4ad815c8211f5e4dd329b00f7a36a4862a5ce884de5b23ea1724d4e2')
+source=("unpackerr-${pkgver}.tar.gz::https://github.com/Unpackerr/unpackerr/archive/v0.12.0.tar.gz")
+sha256sums=('cbe56758473a612b099e45604a7bbe19880ba10c1d1615dfa4e6d171da45f927')
 configfile='unpackerr.conf'
 backup=("etc/${pkgname}/${configfile}")
 install="${pkgname}.aur.install"

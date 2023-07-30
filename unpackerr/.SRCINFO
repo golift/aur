@@ -1,7 +1,7 @@
 pkgbase = unpackerr
 	pkgdesc = Extracts downloads so Radarr, Sonarr, Lidarr or Readarr may import them.
-	pkgver = 0.11.2
-	pkgrel = 505
+	pkgver = 0.12.0
+	pkgrel = 547
 	url = https:/golift.io/unpackerr
 	install = unpackerr.aur.install
 	arch = x86_64
@@ -15,7 +15,7 @@ pkgbase = unpackerr
 	makedepends = go
 	makedepends = make
 	backup = etc/unpackerr/unpackerr.conf
-	source = unpackerr-0.11.2.tar.gz::https://github.com/Unpackerr/unpackerr/archive/v0.11.2.tar.gz
-	sha256sums = 8d6d25db4ad815c8211f5e4dd329b00f7a36a4862a5ce884de5b23ea1724d4e2
+	source = unpackerr-0.12.0.tar.gz::https://github.com/Unpackerr/unpackerr/archive/v0.12.0.tar.gz
+	sha256sums = cbe56758473a612b099e45604a7bbe19880ba10c1d1615dfa4e6d171da45f927
 
 pkgname = unpackerr
