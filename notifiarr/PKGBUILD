@@ -1,6 +1,6 @@
 pkgname=notifiarr
 pkgver=0.8.0
-pkgrel=2060
+pkgrel=1963
 pkgdesc='Official Client for Notifiarr.com'
 arch=('x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64' 'i686' 'pentium4')
 url='https://notifiarr.com'
@@ -52,8 +52,6 @@ package() {
   install -m644 "examples/${configfile}.example" "${pkgdir}/etc/${pkgname}/${configfile}"
   # Extra documentation.
   install -m644 *.html examples/* pkg/bindata/files/images/logo/${pkgname}.png "${pkgdir}/usr/share/doc/${pkgname}/"
-  # X11 Desktop File.
-  install -m755 init/linux/deb/usr/share/applications/${pkgname}.desktop "${pkgdir}/usr/share/applications/"
   # License.
   install -m644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
   # User and group.
