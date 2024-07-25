@@ -1,7 +1,7 @@
 pkgbase = notifiarr
 	pkgdesc = Official Client for Notifiarr.com
 	pkgver = 0.8.0
-	pkgrel = 1963
+	pkgrel = 2060
 	url = https://notifiarr.com
 	install = notifiarr.aur.install
 	arch = x86_64
