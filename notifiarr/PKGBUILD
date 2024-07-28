@@ -1,13 +1,13 @@
 pkgname=notifiarr
-pkgver=0.8.0
-pkgrel=1963
+pkgver=0.8.1
+pkgrel=2044
 pkgdesc='Official Client for Notifiarr.com'
 arch=('x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64' 'i686' 'pentium4')
 url='https://notifiarr.com'
 license=('MIT')
 makedepends=('go' 'make')
-source=("notifiarr-${pkgver}.tar.gz::https://github.com/Notifiarr/notifiarr/archive/v0.8.0.tar.gz")
-sha256sums=('64b761c9028f4999ef8e36e5a8da8e4d9a2da2b0b70b0c7b192ca4afe6c4533f')
+source=("notifiarr-${pkgver}.tar.gz::https://github.com/Notifiarr/notifiarr/archive/v0.8.1.tar.gz")
+sha256sums=('fc10637a90f97baf7a6079bd75fa273a367e3b712fb642bc1069e459bf41a454')
 configfile='notifiarr.conf'
 backup=("etc/${pkgname}/${configfile}")
 install="${pkgname}.aur.install"
@@ -52,6 +52,8 @@ package() {
   install -m644 "examples/${configfile}.example" "${pkgdir}/etc/${pkgname}/${configfile}"
   # Extra documentation.
   install -m644 *.html examples/* pkg/bindata/files/images/logo/${pkgname}.png "${pkgdir}/usr/share/doc/${pkgname}/"
+  # X11 Desktop File.
+  install -m755 init/linux/deb/usr/share/applications/${pkgname}.desktop "${pkgdir}/usr/share/applications/"
   # License.
   install -m644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
   # User and group.
